@@ -25,12 +25,13 @@ The final model performance is ranked according to the **minimum WMAPE error**
 
 ![](https://zindi-public-release.s3.eu-west-2.amazonaws.com/uploads/image_attachment/image/1944/584d2bb7-8d36-4a32-91b2-4ce603be6bbf.png)
  
-### Skills to Look For
+### Things to Learn
 ```text
 * Regression Problem Statement to Optimize (Predict) Energy Consumption
 * Understanding Domin Knowledge in 5G Data and Energy Consumption
 * ANN Architecture along with Activation Functions
 * Optimizing MAE/ MAPE/ WMAPE
+* Usage of NO FUTURE VALUES
 ```
 
 ## Solution Approach : [Report - 5G-Energy Consumption Modelling by ITU.pdf](https://github.com/ITU-AI-ML-in-5G-Challenge/5G-Energy-Consumption-Modelling-Solution-Team-Farzi-Data-Scientists/blob/main/Report%20-%205G-Energy%20Consumption%20Modelling%20by%20ITU.pdf)
@@ -76,7 +77,8 @@ If you decide to download and create your own folder, make sure to place both tr
 
 #### Notebooks
 
-* **ecm-zindi-kp-v4-training-and-prediction-notebook.ipynb**
+* **ecm-zindi-kp-v4-training-and-prediction-notebook.ipynb** This file contains the training and evaluation code for the above competititon using Fast AI and Keras in which only past values are used for modelling along with raw and engineered features.
+  
     ```text
     * Local CV & Score
         * FastAI ANN:

@@ -56,9 +56,8 @@ This ML challenge targets addressing the important questions mentioned above. In
 
 ### Steps
 * Open a kaggle notebook
-* Add data (your data will remain private, so no worries) *Data folder is attached in the solution folder (you can directly upload the folder or the zipped version, also attached in the solution folder*
-* **Dataset** - **ecm-itu-zindi-kp-data**
-* This folder contains training data downloaded from ITU website
+  * Add data (your data will remain private, so no worries) *Data folder is attached in the solution folder (you can directly upload the folder or the zipped version, also attached in the solution folder*
+* **Dataset** - **ecm-itu-zindi-kp-data** This folder contains training data downloaded from ITU website
   * *Imgs_202307101549519358.csv*
   * *Imgs_2023071012123392536.csv*
   * *Imgs_2023071012130978799.csv*
@@ -66,6 +65,8 @@ This ML challenge targets addressing the important questions mentioned above. In
 Test data downloaded from zindi
   * *SampleSubmission,csv*
 If you decide to download and create your own folder, make sure to place both training and test in same folder and change path in the notebook
+
+#### CODE
 
 * **ecm-zindi-kp-v4-training-and-prediction-notebook.ipynb**
     ```text

@@ -25,15 +25,7 @@ This ML challenge targets addressing the important questions mentioned above. In
 * Optimizing MAE/ MAPE/ WMAPE
 ```
 
-## Solution Approach
-
-```text
-* Text Preprocessing using Different Pipelines
-* Text Features based approach using Feature Engineering
-* Transfer Learning Using Simple Transformers using different models. Eg BERT, Roberta
-* Multi label Straified Cross Validation
-* Optimizing Log Loss using Ensemble approach to reduce Variance
-```
+## Solution Approach : [Report - 5G-Energy Consumption Modelling by ITU.pdf](https://github.com/ITU-AI-ML-in-5G-Challenge/5G-Energy-Consumption-Modelling-Solution-Team-Farzi-Data-Scientists/blob/main/Report%20-%205G-Energy%20Consumption%20Modelling%20by%20ITU.pdf)
 
 ## Steps to reproduce
 
@@ -64,10 +56,8 @@ This ML challenge targets addressing the important questions mentioned above. In
 
 ### Steps
 * Open a kaggle notebook
-* Add data (your data will remain private, so no worries)
-* Data folder is attached in the solution folder (you can directly upload the folder or the zipped version, also attached in the solution folder)
-
-**Kaggle Dataset** - [ecm-itu-zindi-kp-data](https://www.kaggle.com/datasets/krishnapriya18/ecm-itu-zindi-kp-data)
+* Add data (your data will remain private, so no worries) *Data folder is attached in the solution folder (you can directly upload the folder or the zipped version, also attached in the solution folder*
+* **Dataset** - **ecm-itu-zindi-kp-data**
 * This folder contains training data downloaded from ITU website
   * *Imgs_202307101549519358.csv*
   * *Imgs_2023071012123392536.csv*
@@ -77,9 +67,31 @@ Test data downloaded from zindi
   * *SampleSubmission,csv*
 If you decide to download and create your own folder, make sure to place both training and test in same folder and change path in the notebook
 
+* **ecm-zindi-kp-v4-training-and-prediction-notebook.ipynb**
+    ```text
+    * Local CV & Score
+        * FastAI ANN:
+          * Local GroupKFold OOF MAPE: 0.029
+          * Public Leaderboard: 0.0558
+          * Private Leaderboard: 0.0549
+        * Keras ANN:                            [Final Submission]
+          * Local GroupKFold OOF MAPE: 0.026 
+          * Public Leaderboard: 0.0434
+          * Private Leaderboard: 0.0435
+        * Mean Weighted Ensemble:
+          * Local GroupKFold OOF MAPE: 0.0259
+          * Public Leaderboard: 0.0474
+          * Private Leaderboard: 0.0470
+    * Solution Files
+        * submission_fastai.csv
+        * submission_keras.csv                  [Final Submission]
+        * submission_ensemble.csv
+        * Submission_ensemble_hm.csv
+    ```
+* **shap-analysis-model-explanation.ipynb**
+  This notebook is for the organizers to understand the models trained. You NEEDNOT run it to match the score on LB. There is a separate notebook for this because shap analysis for ANN models take a lot of time to run. The     input to this notebook is again the input data and the output models of above training notebook. If you decide to run this. Please change the paths in the code accordingly.
 
-https://www.kaggle.com/code/ayushkumarkej/ecm-zindi-kp-v4
 
 ## Contributors
-1. Krishna Priya
-2. Rajat Ranjan
+1. [Krishna Priya](https://www.linkedin.com/in/krishnapriya18/)
+2. [Rajat Ranjan](https://www.linkedin.com/in/rajat-ranjan24/)

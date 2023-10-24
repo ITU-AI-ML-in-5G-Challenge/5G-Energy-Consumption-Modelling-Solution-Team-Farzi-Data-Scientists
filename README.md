@@ -1,6 +1,6 @@
 # AI/ML for 5G-Energy Consumption Modelling by ITU AI/ML in 5G Challenge
 
-## 5G Energy Consumption Modelling [RANK 1](https://zindi.africa/competitions/aiml-for-5g-energy-consumption-modelling/leaderboard) Solution Team [Farzi Data Scientists](https://zindi.africa/competitions/aiml-for-5g-energy-consumption-modelling/leaderboard/teams/farzi_data_scientists)
+## 5G Energy Consumption Modelling [Private RANK 1](https://zindi.africa/competitions/aiml-for-5g-energy-consumption-modelling/leaderboard) Solution Team [Farzi Data Scientists](https://zindi.africa/competitions/aiml-for-5g-energy-consumption-modelling/leaderboard/teams/farzi_data_scientists)
 
 ## [Problem Statement](https://zindi.africa/competitions/aiml-for-5g-energy-consumption-modelling)
 5G, the fifth generation of radio technology, has brought about new services, technologies, and networking paradigms, with the corresponding social benefits. However, there is growing concern over the energy consumption of these new network deployments. While 5G networks are estimated to be about 4x more energy-efficient than 4G networks, their energy consumption is approximately 3x larger due to the need for a larger number of cells to provide the same coverage at higher frequencies and the increased processing required for wider bandwidths and more antennas.

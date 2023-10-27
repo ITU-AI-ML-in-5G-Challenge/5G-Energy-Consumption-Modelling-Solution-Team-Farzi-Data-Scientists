@@ -36,7 +36,7 @@ The final model performance is ranked according to the **minimum WMAPE error**
 
 ## Solution Approach : 
 * [Report - 5G-Energy Consumption Modelling by ITU.pdf](https://github.com/ITU-AI-ML-in-5G-Challenge/5G-Energy-Consumption-Modelling-Solution-Team-Farzi-Data-Scientists/blob/main/Report%20-%205G-Energy%20Consumption%20Modelling%20by%20ITU.pdf)
-* [Presentation - Farzi DataScientists](https://github.com/ITU-AI-ML-in-5G-Challenge/5G-Energy-Consumption-Modelling-Solution-Team-Farzi-Data-Scientists/blob/main/5G-Energy%20Consumption%20-%20Farzi%20Data%20Scientists_final.pdf)
+* [Presentation - Farzi DataScientists](https://github.com/ITU-AI-ML-in-5G-Challenge/5G-Energy-Consumption-Modelling-Solution-Team-Farzi-Data-Scientists/blob/main/Presentation%20-%205G-Energy%20Consumption%20-%20Farzi%20Data%20Scientists.pdf)
 
 ## Steps to reproduce
 
